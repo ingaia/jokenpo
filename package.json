@@ -1,0 +1,22 @@
+{
+  "name": "jokenpo",
+  "version": "0.0.0",
+  "description": "Jokenpo example app",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorperin/jokenpo.git"
+  },
+  "keywords": [
+    "jokenpo"
+  ],
+  "author": "Victor Perin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorperin/jokenpo/issues"
+  },
+  "homepage": "https://github.com/victorperin/jokenpo#readme"
+}
