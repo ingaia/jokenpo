@@ -1,0 +1,14 @@
+version: "3"
+services:
+    web:
+        build: .
+        volumes:
+            - ./:/app
+        ports:
+            - ${API_PORT}:3000
+        links:
+            - mongo
+    mongo:
+        image: mongo
+        ports:
+            - ${MONGODB_PORT}:27017
