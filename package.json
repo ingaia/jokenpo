@@ -4,6 +4,7 @@
   "description": "Jokenpo example app",
   "main": "server.js",
   "scripts": {
+    "start": "nodemon server.js",
     "test": "mocha --recursive"
   },
   "repository": {
