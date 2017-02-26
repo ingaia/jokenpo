@@ -19,5 +19,10 @@
   "bugs": {
     "url": "https://github.com/victorperin/jokenpo/issues"
   },
-  "homepage": "https://github.com/victorperin/jokenpo#readme"
+  "homepage": "https://github.com/victorperin/jokenpo#readme",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.14.1",
+    "nodemon": "^1.11.0"
+  }
 }
