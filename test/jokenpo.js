@@ -1,7 +1,7 @@
 const assert = require('assert')
 
 describe('Jogar Jokenpo', () => {
-  const jogarJokenpo = require('../../logic/jokenpo/jogar.js');
+  const jogarJokenpo = require('../jogarJokenpo.js');
   it('jogador 1 ganha', () => {
     assert.equal(jogarJokenpo('pedra', 'tesoura'), 1);
     assert.equal(jogarJokenpo('tesoura', 'papel'), 1);
