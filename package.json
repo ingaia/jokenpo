@@ -1,0 +1,33 @@
+{
+  "name": "jokenpo",
+  "version": "0.1.2",
+  "description": "Jokenpo example app",
+  "main": "index.js",
+  "bin": {
+    "jokenpo": "index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorperin/jokenpo.git"
+  },
+  "keywords": [
+    "jokenpo"
+  ],
+  "author": "Victor Perin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorperin/jokenpo/issues"
+  },
+  "homepage": "https://github.com/victorperin/jokenpo#readme",
+  "dependencies": {
+    "prompt-promise": "^1.0.3"
+  },
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
