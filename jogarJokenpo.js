@@ -1,4 +1,4 @@
-module.exports = (p1, p2) => {
+module.exports = ([p1, p2]) => {
   if(p1 === p2) return 0;
 
   const possibleHands = ['pedra', 'tesoura', 'papel'];
