@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 const prompt = require('prompt-promise');
 
 const movimentos = [];

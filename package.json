@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Jokenpo example app",
   "main": "index.js",
+  "bin": {
+    "jokenpo": "index.js"
+  },
   "scripts": {
     "start": "node index.js",
     "test": "mocha --recursive"
