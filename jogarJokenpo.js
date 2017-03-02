@@ -6,6 +6,9 @@ module.exports = ([p1, p2]) => {
   const p1Index = possibleHands.indexOf(p1);
   const p2Index = possibleHands.indexOf(p2);
 
+  if(p1Index === -1 || p2Index === -1)
+    return Promise.reject(Error('Movimento não existe'))
+
   let winner = 0;
 
   if(p1Index === 0 && p2Index === 2) winner = 2;

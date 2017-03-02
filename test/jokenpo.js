@@ -19,4 +19,16 @@ describe('Jogar Jokenpo', () => {
         assert.equal(jogarJokenpo(['tesoura', 'tesoura']), 0);
         assert.equal(jogarJokenpo(['papel', 'papel']), 0);
     });
+
+    it('erro', () => {
+        const verificarMaoImpossivel = error => assert.equal(error.message, 'Movimento não existe');
+        jogarJokenpo(['castor', 'pedra']).catch(verificarMaoImpossivel);
+        jogarJokenpo(['pedra', 'castor']).catch(verificarMaoImpossivel);
+        jogarJokenpo(['castor']).catch(verificarMaoImpossivel);
+        jogarJokenpo(['castor', 0]).catch(verificarMaoImpossivel);
+        jogarJokenpo(['castor', 1]).catch(verificarMaoImpossivel);
+        jogarJokenpo(['castor', 2]).catch(verificarMaoImpossivel);
+        jogarJokenpo([,'castor']).catch(verificarMaoImpossivel);
+        jogarJokenpo([1,'castor']).catch(verificarMaoImpossivel);
+    });
 });
