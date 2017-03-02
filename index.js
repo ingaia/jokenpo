@@ -1,6 +1,4 @@
-const jogarJokenpo = require('./jogarJokenpo');
-
 Promise
     .resolve(['pedra', 'papel'])
-    .then(jogarJokenpo)
+    .then(require('./jogarJokenpo'))
     .then(console.log)
