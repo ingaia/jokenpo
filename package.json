@@ -6,6 +6,7 @@
   "bin": {
     "jokenpo": "index.js"
   },
+  "preferGlobal": true,
   "scripts": {
     "start": "node index.js",
     "test": "mocha --recursive"
